@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Cloister Black';
+  src: url('cloisterblack-webfont.woff2') format('woff2'),
+       url('cloisterblack-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Cloister Black', serif;
+}
+.custom-font {
+  font-family: 'Cloister Black', serif; 
+  text-align: center;
+}
+.p {
+  font-family: 'Pirata One', serif;
+  font-size: 1.25rem; 
+  line-height: 1.5; 
+  margin-bottom: 1.5em;
+}
+p {
+  text-align: justify;
+}
+.p img {
+  float: left; 
+  margin-right: 20px;
+  display: block;
+}
+header {
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+h1.custom-font {
+  font-family: 'Cloister Black', serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+.navbar-brand {
+  margin: 0 15px;
+  font-size: 1.25rem;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.25rem;
+}
+.watari {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.figure-caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-left: 15px;
+}
+.figure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+}
